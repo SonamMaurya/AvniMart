@@ -1744,8 +1744,8 @@ window.index.add({"href":"http://avnimart.com/Beauty/Make-up & Nails/Make-up Set
                  if(!results || results.length == 0){
                  	if(query.startsWith('http')){
                  		console.log(query.split('http://www.amazon.in/')[1]);
-                 		//var x = 'http://www.amazon.in/' + encodeURIComponent(query.split('http://www.amazon.in/')[1] + '&SubscriptionId=AKIAJVYUHW4IL625ARMA&tag=avnimart-21');
-                 		var x = query + '&SubscriptionId=AKIAJVYUHW4IL625ARMA&tag=avnimart-21';
+                 		//var x = 'http://www.amazon.in/' + encodeURIComponent(query.split('http://www.amazon.in/')[1] + '&SubscriptionId=AKIAJVYUHW4IL625ARMA&tag=avnimart08-21');
+                 		var x = query + '&SubscriptionId=AKIAJVYUHW4IL625ARMA&tag=avnimart08-21';
                  		console.log(x);
                  		results = [['Shop', x]];
                  	}
